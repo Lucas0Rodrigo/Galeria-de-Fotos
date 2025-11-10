@@ -23,7 +23,7 @@ header{
     padding: 12px 0px;
     position: fixed;
     width: 100%;
-    background-color: #038C7F;
+    background-color: #0c148d;
     z-index: 9999;
 }   
 header nav ul{
@@ -59,13 +59,13 @@ header nav ul li a:hover{
     border-radius: 20px;
     margin: 20px 15px;
     padding-top: 30px;
-    background-color: #038C7F;
+    background-color: #0c148d;
 }
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #038C7F;
-    color: #000000;
+    background-color: #0c148d;
+    color: #fff;
     font-family: "montserrat", sans-serif;
     margin-top: 40px;
 }
@@ -74,7 +74,7 @@ footer {
    TEXTO E TÍTULOS (Do seu Portfólio)
    ========================= */
 .titulo{
-    color: #000000;
+    color: #fff;
     font-size: 50px;
     font-style: italic;
     text-align: center;
@@ -126,4 +126,5 @@ footer {
     .container {
         width: 95%;
     }
+
 }
