@@ -2,7 +2,7 @@
    RESET E FONTE (Do seu Portfólio)
    ========================= */
 *{
-    color: black;
+    color: #fff;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -128,3 +128,4 @@ footer {
     }
 
 }
+
