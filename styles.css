@@ -19,13 +19,24 @@ body {
 /* =========================
    HEADER (Do seu Portfólio)
    ========================= */
+
 header{
     padding: 12px 0px;
     position: fixed;
     width: 100%;
     background-color: #0c148d;
-    z-index: 9999;
-}   
+    z-index: 9999;;
+    display: flex;
+    justify-content: space-around;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  margin-right: 1.3em;
+  font-size: 1.2em;
+}
 header nav ul{
     list-style: none;
     text-align: center;
@@ -40,11 +51,30 @@ header nav ul li a{
     font-family: 'montserrat', sans-serif;  
     padding: 2px 25px;
     display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
     transition: 2s;
 }
 header nav ul li a:hover{
     color: rgb(85, 85, 85);
     transition: 2s;
+}
+header h1 {
+  font-size: 1.8em;
+  font-weight: 200;
+  cursor: pointer;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+header h1,
+a {
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* =========================
@@ -128,4 +158,5 @@ footer {
     }
 
 }
+
 
